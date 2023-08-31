@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 2.2rem;
+      }
+
+      div#resume {
+        min-width: 310px;
+        font: 16px Helvetica, Avernir, sans-serif;
+        line-height: 24px;
+        color: #000;
+      }
+
+      div#resume h1 {
+        margin: 0 0 16px 0;
+        padding: 0 0 16px 0;
+        font-size: 42px;
+        font-weight: bold;
+        letter-spacing: -2px;
+        border-bottom: 1px solid #999;
+        line-height: 50px;
+      }
+
+      div#resume h2 {
+        font-size: 20px;
+        margin: 0 0 6px 0;
+        position: relative;
+      }
+
+      div#resume h2 span {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-style: italic;
+        font-family: Georgia, serif;
+        font-size: 16px;
+        color: #999;
+        font-weight: normal;
+      }
+
+      div#resume p {
+        margin: 0 0 16px 0;
+      }
+
+      div#resume a {
+        color: #999;
+        text-decoration: none;
+        border-bottom: 1px dotted #999;
+      }
+
+      div#resume a:hover {
+        border-bottom-style: solid;
+        color: #000;
+      }
+
+      div#resume p.objective {
+        font-family: Georgia, serif;
+        font-style: italic;
+        color: #666;
+      }
+
+      div#resume dt {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: right;
+        padding: 0 26px 0 0;
+        width: 150px;
+        border-right: 1px solid #999;
+      }
+
+      div#resume dl {
+        display: table-row;
+      }
+
+      div#resume dl dt,
+      div#resume dl dd {
+        display: table-cell;
+        padding-bottom: 20px;
+      }
+
+      div#resume dl dd {
+        width: 500px;
+        padding-left: 26px;
+      }
+
+      div#resume img {
+        float: right;
+        padding: 10px;
+        background: #fff;
+        margin: 0 30px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        max-width: 220px;
+      }
+
+      @media screen and (max-width: 1100px) {
+        div#resume h2 span {
+          position: static;
+          display: block;
+          margin-top: 2px;
+        }
+      }
+
+      @media screen and (max-width: 550px) {
+        body {
+          margin: 1rem;
+        }
+        div#resume img {
+          transform: rotate(0deg);
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        div#resume dl dt {
+          border-right: none;
+          border-bottom: 1px solid #999;
+        }
+        div#resume dl,
+        div#resume dl dd,
+        div#resume dl dt {
+          display: block;
+          padding-left: 0;
+          margin-left: 0;
+          padding-bottom: 0;
+          text-align: left;
+          width: 100%;
+        }
+        div#resume dl dd {
+          margin-top: 6px;
+        }
+        div#resume h2 {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+        }
+        div#resume dt {
+          font-size: 20px;
+        }
+        h1 {
+          font-size: 36px;
+          margin-right: 0;
+          line-height: 0;
+        }
+        div#resume img {
+          margin: 0;
+        }
+      }
+
+      @media screen and (max-width: 320px) {
+        body {
+          margin: 0;
+        }
+        img {
+          margin: 0;
+          margin-bottom: -40px;
+        }
+        div#resume {
+          width: 320px;
+          padding: 12px;
+          overflow: hidden;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="resume">
+      <img
+        src="C:\Users\MUJEEB NAZIR\OneDrive\Desktop\CSE-21-40\profile.jpg"
+        alt="Mujeeb Nazir"
+      />
+      <h1>Mujeeb Nazir</h1>
+      <p>Cell: <a href="#">9541829766</a></p>
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/mujeeb-nazir-882016216/"
+          >linkedin.com/mujeebnazir</a
+        >
+      </p>
+      <p>Email: <a href="#">mujee703@gmail.com</a></p>
+      <p>
+        GitHub:
+        <a href="https://github.com/mujeebnazir">github.com/mujeebnazir</a>
+      </p>
+      <p id="objective">
+        As a fresher, I want to put to use my skills and technologies that i am
+        familiar with, innovative thoughts that will benefit the Organization
+        and also help me in building my professional career.
+      </p>
+
+      <dl>
+        <dt>Education</dt>
+        <dd>
+          <h2>Islamic University of Science and Technology.</h2>
+          <p>
+            <strong>Degree:</strong> Computer Science and Engineering<br />
+            <strong>SGPA:</strong> 8.8
+          </p>
+        </dd>
+      </dl>
+
+      <dl>
+        <dt>Skills</dt>
+        <dd>
+          <h2>Development Skills</h2>
+          <p>MongoDB, ExpressJs, ReactJs, NodeJs, Tailwind CSS</p>
+
+          <h2>Languages</h2>
+          <p><strong>C</strong>(Data Structure and algorithms)<br /></p>
+          <p><strong>JavaScript</strong><br /></p>
+          <p><strong>HTML5</strong><br /></p>
+          <p><strong>CSS</strong><br /></p>
+        </dd>
+      </dl>
+
+      <dl>
+        <dt>Certifications</dt>
+        <dd>
+          <h2>
+            1. Machine Learning Specilization.<span>August 06 - Coursera</span>
+          </h2>
+          <p>
+            <strong>Course Provider:</strong> DeepLearning.AI x Stanford Online
+          </p>
+          <p><strong>Course Instructor:</strong> Andrew Ng</p>
+
+          <h2>
+            2. Complete Web development Bootcamp 2023.<span
+              >August 20 - Udemy</span
+            >
+          </h2>
+          <p><strong>Course Instructor:</strong> Angela Yu</p>
+          <p></p>
+
+          <h2>
+            3. Responsive Web Design.<span>Janurary 2022 - FreeCodeCamp</span>
+          </h2>
+          <h2>
+            4. JavaScript Algorithms and Data Structures.<span
+              >September 2022 - FreeCodeCamp</span
+            >
+          </h2>
+        </dd>
+      </dl>
+      <dl>
+        <dt>Hobbies</dt>
+        <dd>Playing Cricket, Reading about new technologies</dd>
+      </dl>
+    </div>
+  </body>
+</html>
